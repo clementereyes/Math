@@ -79,7 +79,7 @@ September 04, 2020 - Additional syntax to show original author and website - upd
   <script type="text/javascript">
   var fileName = location.href.split("/").slice(-1);
   var options = { year: '2-digit', month: 'short' };
-  var dt = new Date (document.fileUpdatedDate)
+  var dt = new Date (document.lastModified)
   var date = new Intl.DateTimeFormat("en-US", options).format(dt);
   function single_problem() {
     var operator = "&#8722;";
